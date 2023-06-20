@@ -1,0 +1,295 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/*start nav*/
+nav{
+    background-color: black;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 14px;
+    line-height: 23px;
+    size: 15px;
+}
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+nav a:last-child{
+    float: right;
+}
+/*end nav*/
+
+/*start textbox*/
+#textbox{
+    text-align: center;
+    padding: 60px 0px;
+    font-family: oswald;
+}
+#textbox h1{
+    font-size: 3rem;
+}
+#textbox p{
+    font-size: 1rem;
+}
+#textbox p span{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+/*end textbox*/
+
+/*start header*/
+header{
+    position: relative;
+}
+header #aboveimg{
+    position: absolute;
+    top: 35%;
+    left: 50px;
+    color: white;
+    font-family: oswald;
+}
+header #aboveimg h2{
+    font-size: 2.4rem;
+    line-height: 54px;
+    letter-spacing: 3px;
+}
+header #aboveimg h1{
+    font-size: 4rem;
+    line-height: 96px;
+    letter-spacing: 5px;
+
+}
+header #aboveimg button{
+    border: none;
+    padding: 12px 22px;
+    font-size: 1.3rem; 
+    background-color: rgba(139, 139, 139, 0.9); 
+}
+header #aboveimg button:hover{
+    background-color: rgb(196, 196, 196); 
+}
+/*end header*/
+
+/*start main*/
+main{
+    background-color: #F1F1F1;
+}
+/*start liftside*/
+main #leftside{
+    float: left;
+    width: 70%;
+    background-color: #f1f1f1;
+    padding: 20px;    
+}
+main #leftside article{
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+main #leftside article .articletitle{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 15px;
+}
+main #leftside article .articledesc{
+    text-align: center;
+    font-family: oswald;
+    padding-bottom: 25px;
+}
+main #leftside article .articledesc span{
+    color: rgb(199, 199, 199);
+}
+main #leftside article .articlecontent{
+    font-family: opensans;
+    text-align: justify;
+    line-height: 23px;
+    font-size: 15px;
+
+}
+main #leftside article .articlecontent p{
+    padding: 20px 0px;
+}
+main #leftside article .articlebutton{
+    padding-bottom: 20px;
+}
+main #leftside article .articlebutton .leftb{
+    float: left;
+    background-color: white;
+    padding: 8px 13px;
+    border: 1px solid gray;
+    font-weight: bold;
+
+}
+main #leftside article .articlebutton .leftb:hover{
+    background-color: silver;
+    border-color: silver;
+}
+main #leftside article .articlebutton .rightb{
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 8px 13px;
+    border: black;
+    font-weight: bold;
+}
+main #leftside article .articlebutton .rightb:hover{
+    background-color: silver;
+    border: silver;
+    color: black;
+    font-weight: bold;
+}
+main #leftside article .articlebutton .rightb span{
+    background-color: white;
+    color: black;
+    padding: 0px 8px;
+} 
+.hr{
+    border-bottom: 1px solid gray;
+} 
+main #leftside article .articlefooter{
+    padding: 20px 0px;
+}
+main #leftside article .articlefooter .lefts{
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+main #leftside article .articlefooter .rights{
+    float: right;
+    width: 85%;
+    padding: 10px;
+}
+main #leftside article .articlefooter .rights p{
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+main #leftside article .articlefooter .rights p span{
+    color: gray;
+}
+/*end liftside*/
+/*start rightside*/
+main #rightside{
+    float: right;
+    width: 30%;
+    background-color: #f1f1f1;
+    padding: 40px 0px;
+}
+
+main #rightside .rightintro{
+
+}
+main #rightside .rightintro p{
+    background-color: black;
+    color: white;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: opensans;
+    line-height: 23px;
+    padding: 5px 10px;
+
+}
+
+main #rightside .rightsections{
+    margin: 20px 0px;
+    
+}
+main #rightside .rightsections h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: oswald;
+    font-weight: normal;
+}
+
+main #rightside .rightsections .sectioncontant{
+    background-color: white;
+    padding: 20px;
+
+}
+
+
+
+/*end rightside*/
+
+.clear{
+    clear: both;
+}
+/*end main*/
+
+/*start footer*/
+footer{
+    background-color: #616161;
+    padding: 50px;
+}
+footer > a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none; 
+}
+footer p{
+    padding-top: 28px;
+    color: white;
+    font-size: 1.1rem;
+}
+footer p a{
+    color: white;
+}
+/*end footer*/
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    header #aboveimg{
+        
+        top: 15%;
+    
+      
+    }
+    header #aboveimg h2{
+        font-size: 1.4rem;
+        line-height: 20px;
+      
+    }
+    header #aboveimg h1{
+        font-size: 2.2rem;
+        line-height: 40px;
+       
+    
+    }
+
+
+    main #leftside{
+        float: none;
+        width: 100%;
+  
+    }
+
+
+    main #rightside{
+        float: none;
+        width: 100%;
+
+    }
+
+}
